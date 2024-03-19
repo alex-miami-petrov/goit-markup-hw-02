@@ -20,6 +20,9 @@ ul {
   cursor: pointer;
   color: #ffffff;
   background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -31,7 +34,11 @@ ul {
   background-color: #2e2f42;
 }
 
-.contacts-header .link {
+.contacts {
+  font-style: normal;
+}
+
+.contacts .link {
   color: #434455;
   font-style: normal;
   letter-spacing: 0.02em;
@@ -46,8 +53,8 @@ ul {
   color: #ffffff;
   font-size: 56px;
   text-align: center;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .page-nav {
@@ -79,18 +86,41 @@ ul {
 
 .title {
   font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.sub-title {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.sub-title-port {
+  letter-spacing: 0.02em;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.sub-title {
-  letter-spacing: 0.02em;
-}
-
 .portfolio-bg {
   background-color: #f4f4fd;
+}
+
+.text-team {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .text {
@@ -100,4 +130,22 @@ ul {
 
 footer {
   background-color: #2e2f42;
+}
+
+.studio-f {
+  color: #f4f4fd;
+}
+
+.text-f {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.team-bg {
+  background-color: #f4f4fd;
+}
+
+.border-bg {
+  background-color: #ffffff;
 }
