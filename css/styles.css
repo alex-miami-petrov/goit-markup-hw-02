@@ -16,47 +16,16 @@ ul {
   list-style-type: none;
 }
 
-.button {
-  cursor: pointer;
-  color: #ffffff;
-  background-color: #4d5ae5;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-.button:hover,
-.button:focus {
-  background-color: #404bbf;
-}
-
-.hero-background {
-  background-color: #2e2f42;
-}
-
-.contacts {
-  font-style: normal;
-}
-
-.contacts .link {
-  color: #434455;
-  font-style: normal;
+.text {
+  font-size: 16px;
   letter-spacing: 0.02em;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
-  color: #404bbf;
-}
+/* NAV */
 
-.hero-header {
-  color: #ffffff;
-  font-size: 56px;
-  text-align: center;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
+.studio {
+  color: #2e2f42;
 }
-
 .page-nav {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -83,10 +52,58 @@ ul {
   text-transform: uppercase;
 }
 
-.studio {
-  color: #2e2f42;
+/* BUTTON */
+
+.button {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+/* CONTACTS */
+
+.contacts .link {
+  color: #434455;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+/* HERO */
+
+.hero-background {
+  background-color: #2e2f42;
+}
+
+.hero-header {
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+/* TEAM */
+
+.team {
+  background-color: #f4f4fd;
+}
 .title {
   font-weight: 500;
   font-size: 36px;
@@ -107,7 +124,19 @@ ul {
   text-align: center;
 }
 
-.sub-title-port {
+.team-list-bg {
+  background-color: #ffffff;
+}
+
+.team-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* PORTFOLIO */
+
+.portfolio-subtitle {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
@@ -116,24 +145,14 @@ ul {
   color: #2e2f42;
 }
 
+.portfolio {
+  background-color: #ffffff;
+}
+
 .portfolio-bg {
   background-color: #ffffff;
 }
-
-.list-bg {
-  background-color: #ffffff;
-}
-
-.text-t {
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
-.text {
-  font-size: 16px;
-  letter-spacing: 0.02em;
-}
+/* FOOTER */
 
 footer {
   background-color: #2e2f42;
@@ -143,12 +162,8 @@ footer {
   color: #f4f4fd;
 }
 
-.text-f {
+.footer-text {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.team-bg {
-  background-color: #f4f4fd;
 }
